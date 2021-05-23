@@ -9,6 +9,6 @@ while(a!=1):
 b.append(a)    
 print(b)  
 for i in reversed(range(len(b))):
-    print()
+    print(b[i],end='')
               
     
