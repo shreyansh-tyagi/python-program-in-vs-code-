@@ -10,5 +10,5 @@ b.append(a)
 print(b)  
 for i in reversed(range(len(b))):
     print(b[i],end='')
-              
+print('\n\n')              
     
