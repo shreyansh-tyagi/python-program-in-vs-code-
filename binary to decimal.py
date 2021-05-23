@@ -1,7 +1,8 @@
 a=input('entre the number: ')
 b=[]
-for i in range(len(a)):
-    b.append(int(a[i]))
+if ('1' in a)and ('0' in a):
+    for i in range(len(a)):
+       b.append(int(a[i]))
 sum=0 
 print(b) 
 b.reverse()
