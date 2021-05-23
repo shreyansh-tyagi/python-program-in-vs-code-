@@ -6,5 +6,9 @@ while(a!=1):
     else:
         b.append(1)
     a=a//2
-print(b)            
+b.append(a)    
+print(b)  
+for i in reversed(range(len(b))):
+    print()
+              
     
