@@ -1,6 +1,7 @@
 a=input('entre the number: ')
 b=[]
-if ('1' in a)and ('0' in a):
+c='23456789'
+if (a not in c):
     for i in range(len(a)):
        b.append(int(a[i]))
 sum=0 
