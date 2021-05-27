@@ -1,5 +1,5 @@
 from itertools import product
-a,b=map(int,input('enter two number: ').split())
+a,b=map(int,input('enter two numbers: ').split())
 print("The cartesian product using repeat:") 
 d=(list(product([a,b], repeat = a))) 
 print(d)
